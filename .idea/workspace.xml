@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/main/java/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/main/java/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/main/java/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/main/java/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,8 +15,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Test2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Test2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Test1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test/src/main/java/Test1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
@@ -26,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test3.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../test/src/main/java/Test3.java">
+      <file leaf-file-name="Test3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Test3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="120">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -45,11 +52,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../test" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="dz" />
-        <entry key="$PROJECT_DIR$/../test" value="dz" />
+        <entry key="$PROJECT_DIR$" value="dz" />
       </map>
     </option>
   </component>
@@ -59,8 +66,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test2.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test1.java" />
-        <option value="$PROJECT_DIR$/../test/src/main/java/Test1.java" />
-        <option value="$PROJECT_DIR$/../test/src/main/java/Test3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test3.java" />
       </list>
     </option>
   </component>
@@ -72,8 +79,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
-    <option name="y" value="93" />
+    <option name="x" value="580" />
+    <option name="y" value="78" />
     <option name="width" value="1780" />
     <option name="height" value="879" />
   </component>
@@ -255,12 +262,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532419510473</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test3">
+      <created>1532419760625</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1532419760625</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="93" width="1780" height="879" extended-state="1" />
-    <editor active="true" />
+    <frame x="135" y="93" width="1780" height="879" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -268,11 +281,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005841" side_tool="true" visible="true" weight="0.33103448" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50116825" side_tool="true" visible="true" weight="0.32827586" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49941587" visible="true" weight="0.33103448" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49941587" weight="0.32827586" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49941587" weight="0.33103448" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49883178" visible="true" weight="0.32827586" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25350466" />
@@ -304,21 +317,23 @@
     <MESSAGE value="zd" />
     <MESSAGE value="zd 2" />
     <MESSAGE value="master test3" />
-    <option name="LAST_COMMIT_MESSAGE" value="master test3" />
+    <MESSAGE value="Test3" />
+    <MESSAGE value="test3" />
+    <option name="LAST_COMMIT_MESSAGE" value="test3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../test/src/main/java/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test/src/main/java/Test2.java~Stashed changes" />
-    <entry file="file://$PROJECT_DIR$/../test/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test2.java~Stashed changes" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test/src/main/java/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
@@ -329,24 +344,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test/src/main/java/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test/src/main/java/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test/src/main/java/Test3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="120">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
