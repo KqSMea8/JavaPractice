@@ -9,9 +9,9 @@ public class Test1 {
 
         System.out.println("test2");
 
-        System.out.println("dz  test2");
+        System.out.println("zd  test2");
 
-        System.out.println("dz test1");
+        System.out.println("zd test1");
 
     }
 }
