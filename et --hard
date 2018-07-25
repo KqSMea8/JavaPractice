@@ -1,0 +1,73 @@
+[33mcommit 9e56373eca911a0e0c816dd5a329615022da53d4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: xzh.xzh <xzh.xzh@antfin.com>
+Date:   Tue Jul 24 20:00:17 2018 +0800
+
+    test1
+
+[33mcommit 4616c46c79e27c8cef80faaf6c87932afc33e950[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: cd6c306 34477df
+Author: xzh.xzh <xzh.xzh@antfin.com>
+Date:   Tue Jul 24 16:09:20 2018 +0800
+
+    test3
+
+[33mcommit cd6c306f2e8a2d09fb176883a80ace6811bf6dde[m
+Author: xzh.xzh <xzh.xzh@antfin.com>
+Date:   Tue Jul 24 16:05:10 2018 +0800
+
+    master test3
+
+[33mcommit 34477dfd3dab43753870599f64aabdb8664021da[m[33m ([m[1;31morigin/zd[m[33m, [m[1;32mzd[m[33m, [m[1;32mdz[m[33m)[m
+Author: xzh.xzh <xzh.xzh@antfin.com>
+Date:   Tue Jul 24 14:21:31 2018 +0800
+
+    zd 2
+
+[33mcommit b5072c42ee658284e91fce9b9b45c97e8008ca30[m
+Author: xzh.xzh <xzh.xzh@antfin.com>
+Date:   Tue Jul 24 14:20:22 2018 +0800
+
+    zd
+
+[33mcommit ae841f0aeda27f4697793855774425af5ec1544e[m
+Merge: 71fbbd9 6edc664
+Author: xzh.xzh <xzh.xzh@antfin.com>
+Date:   Tue Jul 24 14:12:10 2018 +0800
+
+    dz  test1 test2
+
+[33mcommit 6edc6640b5fc57f85e4e149fe77fe42a1e8c2494[m[33m ([m[1;31morigin/dz[m[33m)[m
+Author: xzh.xzh <xzh.xzh@antfin.com>
+Date:   Tue Jul 24 14:10:32 2018 +0800
+
+    dz  test1
+
+[33mcommit 71fbbd9518838d274b1975d235327147a2c64844[m
+Author: xzh.xzh <xzh.xzh@antfin.com>
+Date:   Tue Jul 24 14:08:56 2018 +0800
+
+    dz
+
+[33mcommit 1e43684af91ca9ed7ef593892b886c60c1369641[m
+Author: xzh.xzh <xzh.xzh@antfin.com>
+Date:   Tue Jul 24 14:03:10 2018 +0800
+
+    TEST2
+
+[33mcommit 97e6d6b4b5d344829de7857c626863fdaf1f3619[m
+Author: xzh.xzh <xzh.xzh@antfin.com>
+Date:   Tue Jul 24 14:01:04 2018 +0800
+
+    TEST1
+
+[33mcommit 4f31b691e2e9c7f99fd97140a78e35102ded3652[m
+Author: xzh.xzh <xzh.xzh@antfin.com>
+Date:   Tue Jul 24 13:54:44 2018 +0800
+
+    1
+
+[33mcommit 0b6eb15a9604dedae4548c92949977522d75c658[m
+Author: xzh.xzh <xzh.xzh@antfin.com>
+Date:   Tue Jul 24 13:51:49 2018 +0800
+
+    main
