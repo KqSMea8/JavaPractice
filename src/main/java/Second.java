@@ -6,9 +6,9 @@
  * @author dz on 2018/8/14.
  */
 
-public class First {
+public class Second {
 
     public static void main(String[] args) {
-        System.out.println("First");
+        System.out.println("Second");
     }
 }
