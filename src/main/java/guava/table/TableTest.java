@@ -9,10 +9,6 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * /**
- * Alipay.com Inc
- * Copyright (c) 2004-2017 All Rights Reserved.
- *
  * @author dz on 2018/10/4.
  */
 public class TableTest {

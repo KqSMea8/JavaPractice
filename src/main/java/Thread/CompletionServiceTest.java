@@ -10,9 +10,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * /**
- * Alipay.com Inc
- * Copyright (c) 2004-2017 All Rights Reserved.
  *
  * @author dz on 2018/10/1.
  */
