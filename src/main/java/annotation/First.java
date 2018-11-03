@@ -12,5 +12,6 @@ public class First {
     public static void main(String[] args) {
         boolean hasAnnotation = (boolean) First.class.isAnnotationPresent(TestAnnotation.class);
         System.out.println(hasAnnotation);
+
     }
 }

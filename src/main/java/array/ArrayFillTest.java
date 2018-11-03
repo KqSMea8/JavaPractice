@@ -14,7 +14,10 @@ public class ArrayFillTest {
 
     public static void main(String[] args) {
         byte[] b = new byte[8];
-        Arrays.fill(b, (byte) 0);
-        System.out.println(b[1]);
+        Arrays.fill(b, (byte) 1);
+
+        for (int i = 0; i <b.length; i++) {
+            System.out.println(b[i]);
+        }
     }
 }

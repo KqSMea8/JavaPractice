@@ -24,7 +24,7 @@ public class Request implements org.apache.thrift.TBase<Request, Request._Fields
    */
   public RequestType type; // required
   public String name; // required
-  public int age; // optional
+  public int age; // java8.optional
 
   /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
   public enum _Fields implements org.apache.thrift.TFieldIdEnum {

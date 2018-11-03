@@ -18,7 +18,7 @@ public class RequestException extends org.apache.thrift.TException implements or
   private static final org.apache.thrift.scheme.SchemeFactory TUPLE_SCHEME_FACTORY = new RequestExceptionTupleSchemeFactory();
 
   public int code; // required
-  public String reason; // optional
+  public String reason; // java8.optional
 
   /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
   public enum _Fields implements org.apache.thrift.TFieldIdEnum {

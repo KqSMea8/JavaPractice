@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
  * @author dz on 2018/10/22.
  */
 public class TimeUnintTest {
+
     public static void main(String args[]) throws InterruptedException {
 
         System.out.println("Sleeping for 4 minutes using Thread.sleep()");
@@ -17,4 +18,5 @@ public class TimeUnintTest {
         TimeUnit.HOURS.sleep(1);
         TimeUnit.DAYS.sleep(1);
     }
+
 }

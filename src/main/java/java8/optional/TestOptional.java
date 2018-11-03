@@ -1,6 +1,5 @@
-package optional;
+package java8.optional;
  
-import java.awt.*;
 import java.util.*;
 import java.util.List;
  
@@ -18,7 +17,7 @@ public class TestOptional {
         //Optional默认写法
         Optional<String> optional = Optional.of("hello");
         if(optional.isPresent()){
-            System.out.println("optional = [" + optional.get() + "]");
+            System.out.println("java8.optional = [" + optional.get() + "]");
         }
  
         //Optional推荐写法

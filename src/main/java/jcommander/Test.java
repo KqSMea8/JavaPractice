@@ -11,6 +11,7 @@ import java.util.Arrays;
  */
 
 public class Test {
+
     public static void main(String[] args) {
         JCommanderTest jct = new JCommanderTest();
         String[] argv = { "-log", "2", "-groups", "unit1,unit2,unit3",
