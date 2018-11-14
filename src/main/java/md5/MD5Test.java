@@ -11,6 +11,7 @@ import java.security.NoSuchAlgorithmException;
 public class MD5Test {
 
     public static void main(String[] args) {
+
         MessageDigest md5Digest = null ;
         try {
             md5Digest = MessageDigest.getInstance("MD5");

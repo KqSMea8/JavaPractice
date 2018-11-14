@@ -1,4 +1,4 @@
-package commons.collections;
+package commons.lang3;
 
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.apache.commons.lang3.tuple.Pair;

@@ -2,6 +2,11 @@ package system;
 
 import org.testng.annotations.Test;
 
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author dz on 2018/10/24.
  */
@@ -59,5 +64,59 @@ public class ClassTest {
         System.out.println(Class.class.getClass().getResource("/").getPath());
     }
 
+    //.getClass和XXX.class区别
+    @Test
+    public void testClassReflection(){
+        ClassTest a= new ClassTest();
+        System.out.println(a.getClass());
+        System.out.println(ClassTest.class);
 
+        System.out.println(a.getClass().getGenericInterfaces());
+    }
+
+    // no pass
+    @Test
+    public void getGenericClass() throws NoSuchFieldException {
+        Type t = new Test1<String>().getClass().getDeclaredField("name").getGenericType();
+
+        if (ParameterizedType.class.isAssignableFrom(t.getClass())) {
+            for (Type t1 : ((ParameterizedType) t).getActualTypeArguments()) {
+                System.out.print(t1 + ",");
+            }
+            System.out.println();
+        }
+    }
+
+    //得到局部变量的泛型   no pass
+    @Test
+    public void getLocalVarGeneric(){
+        List<String> lst = new ArrayList<String>(){};
+        Type genType = lst.getClass().getClass().getGenericSuperclass();
+
+        Class templatClazz = null;
+
+        if(ParameterizedType.class.isAssignableFrom(genType.getClass()))
+        {
+            ParameterizedType parameterizedType = (ParameterizedType) genType;
+            templatClazz = (Class) parameterizedType.getActualTypeArguments()[0];
+            System.out.println(templatClazz);
+        }
+
+        System.out.println("over");
+
+        System.out.println(Object.class.isAssignableFrom(Test1.class));
+    }
+
+    
+}
+class Test1<T> {
+    T name;
+
+    public T getName() {
+        return name;
+    }
+
+    public void setName(T name) {
+        this.name = name;
+    }
 }

@@ -1,4 +1,4 @@
-package Thread;
+package Thread.CyclicBarrier;
 
 import java.util.Map;
 import java.util.concurrent.*;

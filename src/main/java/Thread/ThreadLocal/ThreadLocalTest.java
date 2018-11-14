@@ -1,4 +1,4 @@
-package Thread;
+package Thread.ThreadLocal;
 
 /**
  * @author dz on 2018/9/13.

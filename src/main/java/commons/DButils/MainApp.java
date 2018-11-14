@@ -1,4 +1,4 @@
-package commons.collections.dbutils;
+package commons.DButils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

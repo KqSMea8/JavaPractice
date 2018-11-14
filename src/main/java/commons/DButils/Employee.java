@@ -1,4 +1,4 @@
-package commons.collections.dbutils;
+package commons.DButils;
 
 public class Employee {
    private int id;
