@@ -19,6 +19,8 @@ public class LockTest{
             for (int i = 0 ;i < 5;i++){
                 System.out.println("ThreadName = " + Thread.currentThread().getName() + (" " + (i + 1)));
             }
+
+
             lock.unlock();
         }
 

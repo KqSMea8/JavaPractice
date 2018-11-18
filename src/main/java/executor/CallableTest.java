@@ -12,6 +12,7 @@ public class CallableTest {
 
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newFixedThreadPool(2);
+
         Future future = executorService.submit(new Callable(){
             public Object call() throws Exception {
                 System.out.println("Asynchronous Callable");
