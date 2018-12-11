@@ -5,7 +5,7 @@ import java.lang.reflect.Field;
 public class Main {
   
     public static void main(String[] args) throws Exception {  
-        Class clazz = Class.forName("reflection.AccessibleTest");
+        /*Class clazz = Class.forName("reflection.AccessibleTest");
         AccessibleTest at = new AccessibleTest();  
         at.setId(1);  
         at.setName("AT");  
@@ -16,7 +16,7 @@ public class Main {
             Thread.sleep(2 * 1000);
         }
 
-        System.out.println("job over ！");
+        System.out.println("job over ！");*/
     }  
   
 }  

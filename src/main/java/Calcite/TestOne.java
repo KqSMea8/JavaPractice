@@ -12,6 +12,8 @@ import org.apache.calcite.tools.Frameworks;
 import org.apache.calcite.tools.Planner;
 
 public class TestOne {
+
+
     public static class TestSchema {
         public final Triple[] rdf = {new Triple("s", "p", "o")};
     }
