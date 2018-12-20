@@ -12,6 +12,6 @@ public class Test {
 
         BiConsumer<Integer, String> b = (Integer x, String y) -> System.out.println(x + " : " + y);
 
-        Predicate<String> p = (String s) -> { s == null };
+        Predicate<String> p = (String s) ->  s == null ;
     }
 }

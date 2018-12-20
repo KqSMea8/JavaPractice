@@ -27,7 +27,7 @@ public class JProducer extends Thread {
         while (true) {
             String msg = new String("Message_" + offsetNo);
             System.out.println("Send->[" + msg + "]");
-            producer.send(new KeyedMessage<Integer, String>(topic, msg));
+            //producer.send(new KeyedMessage<Integer, String>(topic, msg));
             offsetNo++;
             try {
                 sleep(SLEEP);
