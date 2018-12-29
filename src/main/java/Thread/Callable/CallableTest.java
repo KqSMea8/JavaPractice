@@ -9,7 +9,6 @@ import java.util.concurrent.Callable;
 
 public class CallableTest {
 
-
     public void start(){
         retry(() -> { return  true;});
     }
