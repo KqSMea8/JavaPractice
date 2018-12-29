@@ -4,16 +4,22 @@
     <bookmark url="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.11.0/calcite-core-1.11.0.jar!/org/apache/calcite/tools/Planner.class" description="SqlNode parse(String var1) throws SqlParseExceptio..." line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="add scala env">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8/Assert/AssertTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8/Pattern/PatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8/Set/BitSet/BitSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lombok/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/bean/TestVo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/bean/TestVoMain.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/object/Test.scala" afterDir="false" />
+    <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="add calcite、AssertTest、lombok">
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/Import/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/Implicit/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/Implicit/Stringutils.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Hello.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Hello.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calcite/test/calcatetest/TestFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calcite/test/calcatetest/TestFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commons/Betwixt/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commons/Betwixt/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lombok/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lombok/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mail/EmailActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mail/EmailActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/object/closure/ClosureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scala/object/closure/ClosureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/object/serialize/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scala/object/serialize/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/bean/TestVo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/bean/TestVo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/bean/TestVoMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/bean/TestVoMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/function/PartialFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/function/PartialFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/object/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/object/Test.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,10 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lombok/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -40,8 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Package Object" />
         <option value="Class" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -51,6 +57,7 @@
       <find>getModifiers</find>
       <find>kafka</find>
       <find>lom</find>
+      <find>sin</find>
     </findStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -67,12 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/reflection/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Calcite/TestOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/linq4j/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/map/IdentityHashMap/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/reflection/Field/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/reflection/Field/FieldTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/Interface/InterfaceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/Interface/NestingInterfaces.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/Interface/Flower.java" />
@@ -104,7 +105,6 @@
         <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/ResearcherSelection.java" />
         <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/Teacher.java" />
         <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/VisitorClient.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/java8/Lambda/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kafka/API/JProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kafka/API/JConsumer.java" />
@@ -118,6 +118,13 @@
         <option value="$PROJECT_DIR$/src/main/java/java8/Set/BitSet/BitSetTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/Pattern/PatternTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lombok/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/Import/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/implicit/swimming.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/implicit/AnimalType.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Implicit/Stringutils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Implicit/Main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/Implicit/Main.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -145,7 +152,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="32" />
+    <option name="x" value="1674" />
+    <option name="y" value="94" />
     <option name="width" value="1440" />
     <option name="height" value="763" />
   </component>
@@ -169,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,35 +202,19 @@
               <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lombok" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xzh/Documents/IdeaProject/test/src/main/java/httpClient/Test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545723063017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546070508672" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -268,28 +261,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="AssertTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.Assert.AssertTest" />
+  <component name="RunManager" selected="Application.Hello">
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
       <module name="JavaPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.Assert.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.Set.BitSet.BitSetTest" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.Implicit.Main" />
       <module name="JavaPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.Set.BitSet.*" />
+          <option name="PATTERN" value="scala.Implicit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,13 +312,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="`object`.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.Import.Test" />
       <module name="JavaPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="`object`.*" />
+          <option name="PATTERN" value="java8.Import.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,19 +347,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.AssertTest" />
-      <item itemvalue="Application.BitSetTest" />
       <item itemvalue="Application.PatternTest" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Hello" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hello" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.PatternTest" />
-        <item itemvalue="Application.BitSetTest" />
-        <item itemvalue="Application.AssertTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -526,6 +513,11 @@
       <workItem from="1545623680177" duration="319000" />
       <workItem from="1545629504054" duration="205000" />
       <workItem from="1545651106182" duration="2938000" />
+      <workItem from="1545723026113" duration="812000" />
+      <workItem from="1545725850205" duration="131000" />
+      <workItem from="1545814683857" duration="951000" />
+      <workItem from="1545817928330" duration="829000" />
+      <workItem from="1546069658165" duration="418000" />
     </task>
     <task id="LOCAL-00001" summary="workspace.xml">
       <created>1534229896092</created>
@@ -590,12 +582,12 @@
       <option name="project" value="LOCAL" />
       <updated>1545311286131</updated>
     </task>
-    <task id="LOCAL-00010" summary="master test3">
-      <created>1532419510473</created>
+    <task id="LOCAL-00010" summary="add calcite、AssertTest、lombok">
+      <created>1545723148942</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1532419510473</updated>
+      <updated>1545723148943</updated>
     </task>
     <task id="LOCAL-00011" summary="test3">
       <created>1532419760625</created>
@@ -702,7 +694,7 @@
       <option name="project" value="LOCAL" />
       <updated>1534229064010</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -738,7 +730,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128139000" />
+    <option name="totallyTimeSpent" value="131280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,10 +742,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="32" width="1440" height="763" extended-state="0" />
+    <frame x="1674" y="94" width="1440" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32260373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34549356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -761,9 +753,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32686982" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32637855" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928057" weight="0.34724292" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42520776" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42473918" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49941587" weight="0.4293629" />
@@ -774,6 +766,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -821,7 +814,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dz  test1 test2" />
     <MESSAGE value="zd" />
     <MESSAGE value="zd 2" />
     <MESSAGE value="master test3" />
@@ -846,7 +838,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="add visitor design pattern" />
     <MESSAGE value="add scala env" />
-    <option name="LAST_COMMIT_MESSAGE" value="add scala env" />
+    <MESSAGE value="add calcite、AssertTest、lombok" />
+    <option name="LAST_COMMIT_MESSAGE" value="add calcite、AssertTest、lombok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -879,70 +872,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calcite/test/aux/cost/DogBuiltInMetadata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calcite/test/aux/cost/DogCumulativeCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calcite/test/aux/cost/DogRelMetaDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calcite/test/aux/rel/DogFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calcite/test/aux/rel/DogProject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calcite/test/aux/rel/DogRel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calcite/test/aux/rel/DogTableScan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calcite/test/aux/DogSqlValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calcite/test/aux/RelVisitTestOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1167,7 +1096,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/function/PartialFunction.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/function/PartialFunction.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
@@ -1175,21 +1104,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/bean/TestVo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bean/TestVo.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/bean/TestVo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/object/Test.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/object/Test.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
@@ -1203,9 +1125,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java8/package.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/package.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/java8/Set/BitSet/BitSetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1241,24 +1161,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="296" column="21" lean-forward="true" selection-start-line="290" selection-end-line="296" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bean/TestVoMain.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/bean/TestVoMain.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/implicit/swimming.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/implicit/AnimalType.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/implicit/package.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lombok/Test.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/Import/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Implicit/Stringutils.scala">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="1" />
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="125" column="36" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Implicit/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.0/spark-sql_2.11-2.3.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1979" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

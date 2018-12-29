@@ -1,4 +1,4 @@
-package object.closure;
+package scala.object.closure;
 
 /**
  * @author dz on 2018/11/1.

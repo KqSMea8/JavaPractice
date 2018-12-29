@@ -4,5 +4,4 @@ object Hello {
      print("1")
   }
 
-
 }

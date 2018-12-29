@@ -1,4 +1,4 @@
-package function
+package scala.function
 
 object PartialFunction {
 

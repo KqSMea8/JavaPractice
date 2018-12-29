@@ -1,4 +1,4 @@
-package object.serialize;
+package scala.object.serialize;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

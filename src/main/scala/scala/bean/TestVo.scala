@@ -1,4 +1,4 @@
-package bean
+package scala.bean
 
 import scala.beans.BeanProperty
 

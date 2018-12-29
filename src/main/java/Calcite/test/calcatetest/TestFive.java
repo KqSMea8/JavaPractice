@@ -143,7 +143,7 @@ public class TestFive {
 					new CalciteConnectionConfigImpl(new Properties()));
 
 
-			//to supported user' define function
+			//to supported user' define scala.function
 			SqlOperatorTable sqlOperatorTable = ChainedSqlOperatorTable.of(frameworkConfig.getOperatorTable(), calciteCatalogReader);
 
 

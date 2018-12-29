@@ -3,7 +3,7 @@ package commons.Betwixt;
 public class Person{
         private String name;  
         private int age;  
-        /** Need to allow bean to be created via reflection */  
+        /** Need to allow scala.bean to be created via reflection */
         public Person() {
         }  
         public Person(String name, int age) {

@@ -1,4 +1,4 @@
-package `object`
+package scala.`object`
 
 class Test {
   def add2(a: Int, b: Int): Int = {

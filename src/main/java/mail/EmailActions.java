@@ -31,7 +31,7 @@ public class EmailActions {
     public EmailActions() {
         String host = "localhost";//or IP address
 
-        //Get the session object
+        //Get the session scala.object
         Properties properties = System.getProperties();
         properties.setProperty("mail.smtp.host", host);
         //properties.setProperty("mail.smtp.sendpartial", "true");
