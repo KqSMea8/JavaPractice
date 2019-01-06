@@ -3,6 +3,7 @@ package core.helloworld
 import org.apache.spark.{SparkConf, SparkContext}
 import java.lang.Thread
 object HelloWorld {
+
   def main(args: Array[String]) {
     val conf = new SparkConf().setAppName("hello").setMaster("local[2]")
 
