@@ -1,5 +1,6 @@
 package scala.scope.P1
 
+//成员在类和包中的 private/protected 可见性
 class C1 {
   private[C1] val m1 = 1
   private[this] val m2 = 2

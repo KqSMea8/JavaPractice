@@ -39,7 +39,7 @@ public class HttpClientGetServerCertificate {
                 // get the server certificates from the {@Link SSLSession}
                 Certificate[] certificates = sslSession.getPeerCertificates();
 
-                // add the certificates to the context, where we can later grab it from
+                // add the certificates to the scala.context, where we can later grab it from
                 context.setAttribute(PEER_CERTIFICATES, certificates);
             }
         };
@@ -53,11 +53,11 @@ public class HttpClientGetServerCertificate {
             HttpGet httpget = new HttpGet("https://www.baidu.com");
             System.out.println("Executing request " + httpget.getRequestLine());
 
-            // create http context where the certificate will be added
+            // create http scala.context where the certificate will be added
             HttpContext context = new BasicHttpContext();
             httpClient.execute(httpget, context);
 
-            // obtain the server certificates from the context
+            // obtain the server certificates from the scala.context
             Certificate[] peerCertificates = (Certificate[])context.getAttribute(PEER_CERTIFICATES);
 
             // loop over certificates and print meta-data

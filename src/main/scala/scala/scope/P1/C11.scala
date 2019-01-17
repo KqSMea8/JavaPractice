@@ -1,5 +1,6 @@
 package scala.scope.P1
 
+
 class C11 extends C1{
   println( m1 )   //< 1, 错误
   //println( m2 )   //< 2, 错误

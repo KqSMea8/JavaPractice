@@ -4,12 +4,16 @@
     <bookmark url="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.11.0/calcite-core-1.11.0.jar!/org/apache/calcite/tools/Planner.class" description="SqlNode parse(String var1) throws SqlParseExceptio..." line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="update spark sql">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/Actor/ActorItem.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/scope/P1/C1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/scope/P1/C11.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/scope/P2/C21.scala" afterDir="false" />
+    <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="add scala scope">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/context/ContextBoundTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/context/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/fold/FoldTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/httpClient/HttpClientGetServerCertificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/httpClient/HttpClientGetServerCertificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/scope/P1/C1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/scope/P1/C1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/scope/P1/C11.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/scope/P1/C11.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,19 +26,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/TT.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/fold/FoldTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="312">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/context/Test.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/caseClass/Test.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/context/ContextBoundTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="468">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -49,58 +62,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P1/C1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P1/C11.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/caseClass/Test.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P2/C21.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/truck.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/TT.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="54">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sql/datasets/Test.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/concurrent/promise/PromiseTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-              <folding>
-                <element signature="e#22#78#0" expanded="true" />
-              </folding>
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P1/C1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1674">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
             </state>
           </provider>
         </entry>
@@ -113,6 +114,7 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
         <option value="Scala Object" />
+        <option value="FxmlFile" />
         <option value="Package Object" />
       </list>
     </option>
@@ -128,6 +130,7 @@
       <find>avro</find>
       <find>zookeeper</find>
       <find>netty</find>
+      <find>scala</find>
     </findStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -144,13 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/Visitor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/Element.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/ObjectStructure.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/GradeSelection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/ResearcherSelection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/Teacher.java" />
         <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/VisitorClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/Lambda/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kafka/API/JProducer.java" />
@@ -172,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/scala/Implicit/Main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Hello.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/core/helloworld/SparkPi.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/Callable/CallableTest.java" />
         <option value="$PROJECT_DIR$/src/main/scala/core/helloworld/HelloWorld.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sql/datasets/SparkSessionTest.scala" />
@@ -191,10 +186,18 @@
         <option value="$PROJECT_DIR$/src/main/scala/scala/Actor/ActorItem.java" />
         <option value="$PROJECT_DIR$/src/main/scala/scala/Actor/ActorItem.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scala/scope/C1.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/scala/scope/P1/C1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scala/scope/C11.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/scala/scope/P1/C11.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scala/scope/P2/C21.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/scope/P1/C11.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/scope/P1/C1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/scope/P3/C1.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/scope/C1.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/fold/FlodTest.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/fold/FoldTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/context/Test.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/context/ContextBoundTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/context/ContextBoundTest.scala" />
       </list>
     </option>
   </component>
@@ -222,10 +225,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
-    <option name="y" value="61" />
+    <option name="x" value="178" />
+    <option name="y" value="70" />
     <option name="width" value="1440" />
-    <option name="height" value="793" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -247,7 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -280,6 +282,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="apply" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -289,39 +299,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scope" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scope" type="462c0819:PsiDirectoryNode" />
-              <item name="P1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scope" type="462c0819:PsiDirectoryNode" />
-              <item name="P2" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xzh/Documents/IdeaProject/test/src/main/java/httpClient/Test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546825352952" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547727709642" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -336,16 +327,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Kafka.API" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="core.helloworld" />
-      <recent name="mysql" />
-      <recent name="hbase" />
-      <recent name="mail" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/Calcite/test" />
-      <recent name="$PROJECT_DIR$/src/main/java/thrift" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -355,6 +336,19 @@
       <recent name="$PROJECT_DIR$/src/main/java/Thread/ItCast" />
       <recent name="$PROJECT_DIR$/src/main/java/Zookeeper/zk/Client_Server" />
       <recent name="$PROJECT_DIR$/src/main/java/Zookeeper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="scala" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core.helloworld" />
+      <recent name="mysql" />
+      <recent name="hbase" />
+      <recent name="mail" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Calcite/test" />
+      <recent name="$PROJECT_DIR$/src/main/java/thrift" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -369,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="ScalaTest.FoldTest.fold test">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Hello" />
       <module name="JavaPractice" />
@@ -389,20 +383,6 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SQlTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sql.sql.SQlTest" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sql.sql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeNoErrorCheck" enabled="true" />
       </method>
     </configuration>
     <configuration name="TT" type="Application" factoryName="Application" temporary="true">
@@ -443,6 +423,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FoldTest.fold test" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="JavaPractice" />
+      <setting name="path" value="scala.fold.FoldTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="scala.fold.FoldTest" />
+      <setting name="testName" value="fold test" />
+      <method v="2">
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -452,19 +450,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SQlTest" />
       <item itemvalue="Application.PromiseTest" />
       <item itemvalue="Application.TT" />
       <item itemvalue="Application.Hello" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="ScalaTest.FoldTest.fold test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.FoldTest.fold test" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.TT" />
         <item itemvalue="Application.Hello" />
         <item itemvalue="Application.PromiseTest" />
-        <item itemvalue="Application.SQlTest" />
       </list>
     </recent_temporary>
   </component>
@@ -628,7 +626,9 @@
       <workItem from="1546394950595" duration="1539000" />
       <workItem from="1546396996964" duration="3000" />
       <workItem from="1546428919806" duration="3616000" />
-      <workItem from="1546778260066" duration="1993000" />
+      <workItem from="1546778260066" duration="3323000" />
+      <workItem from="1546828370493" duration="2100000" />
+      <workItem from="1547725891296" duration="1665000" />
     </task>
     <task id="LOCAL-00001" summary="workspace.xml">
       <created>1534229896092</created>
@@ -721,12 +721,12 @@
       <option name="project" value="LOCAL" />
       <updated>1546778356338</updated>
     </task>
-    <task id="LOCAL-00014" summary="先merge后master">
-      <created>1532506473010</created>
+    <task id="LOCAL-00014" summary="add scala scope">
+      <created>1546825379997</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1532506473010</updated>
+      <updated>1546825379997</updated>
     </task>
     <task id="LOCAL-00015" summary="master test5">
       <created>1532506612960</created>
@@ -805,16 +805,10 @@
       <option name="project" value="LOCAL" />
       <updated>1534229064010</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClassTest_getGenericClass - 2018.11.07 at 16h 33m 08s.xml">
-      <configuration name="ClassTest.getGenericClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ClassTest_getGenericClass - 2018.11.07 at 16h 33m 17s.xml">
-      <configuration name="ClassTest.getGenericClass" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ClassTest_getGenericClass - 2018.11.07 at 16h 36m 22s.xml">
       <configuration name="ClassTest.getGenericClass" configurationId="TestNG" />
     </history-entry>
@@ -839,9 +833,15 @@
     <history-entry file="TreeMapTest_testTreeMap - 2018.11.16 at 19h 16m 41s.xml">
       <configuration name="TreeMapTest.testTreeMap" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FoldTest_fold_test - 2019.01.07 at 10h 58m 54s.xml">
+      <configuration name="FoldTest.fold test" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="FoldTest_fold_test - 2019.01.07 at 10h 59m 29s.xml">
+      <configuration name="FoldTest.fold test" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147425000" />
+    <option name="totallyTimeSpent" value="152520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -853,10 +853,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="362" y="114" width="1440" height="793" extended-state="0" />
-    <editor active="true" />
+    <frame x="178" y="70" width="1440" height="728" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15736766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16094421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -864,13 +863,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32524964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928057" weight="0.26105565" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32389936" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928057" weight="0.3566334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42473918" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49941587" weight="0.4293629" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" visible="true" weight="0.104136944" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" visible="true" weight="0.047169812" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028818" side_tool="true" weight="0.5845481" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49784172" weight="0.35734072" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928057" weight="0.4422254" />
@@ -890,7 +889,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24603175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15736766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -898,18 +897,19 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32686982" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928057" visible="true" weight="0.43905818" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42520776" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32524964" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928057" weight="0.26105565" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42473918" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49941587" weight="0.4293629" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" weight="0.2797784" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" visible="true" weight="0.12838802" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028818" side_tool="true" weight="0.5845481" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49784172" weight="0.35734072" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928057" weight="0.32825485" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928057" weight="0.4422254" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -919,13 +919,14 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32939634" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test3" />
     <MESSAGE value="test3" />
     <MESSAGE value="test1" />
     <MESSAGE value="先merge  后更新master" />
@@ -950,7 +951,8 @@
     <MESSAGE value="update dict and jar for spark" />
     <MESSAGE value="fix netty dependcy mix problem  and add spark hello world" />
     <MESSAGE value="update spark sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="update spark sql" />
+    <MESSAGE value="add scala scope" />
+    <option name="LAST_COMMIT_MESSAGE" value="add scala scope" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -995,43 +997,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="412" column="15" selection-start-line="412" selection-start-column="15" selection-end-line="412" selection-end-column="15" />
-          <folding>
-            <element signature="e#21591#21592#0" expanded="true" />
-            <element signature="e#21636#21637#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java8/Pattern/PatternTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lombok/Mountain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/bean/TestVoMain.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/implicit/swimming.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/implicit/AnimalType.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/implicit/package.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lombok/Test.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1108,13 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
         </state>
       </provider>
     </entry>
@@ -1256,21 +1214,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/concurrent/promise/PromiseTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/truck.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/TT.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/truck.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1295,17 +1239,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Actor/ActorItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Actor/ActorItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P1/C11.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/caseClass/Test.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P3/package.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P2/C21.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="126">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/C1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P3/C1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/fold/FoldTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P1/C1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/concurrent/promise/PromiseTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -1316,24 +1292,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P1/C11.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/caseClass/Test.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P1/C1.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/TT.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="54">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P2/C21.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/context/ContextBoundTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="468">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/context/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
