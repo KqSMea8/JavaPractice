@@ -4,16 +4,15 @@
     <bookmark url="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.11.0/calcite-core-1.11.0.jar!/org/apache/calcite/tools/Planner.class" description="SqlNode parse(String var1) throws SqlParseExceptio..." line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="modify PartialFunction and add Covariation">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/ClassTag/ArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/ClassTag/ClassTagTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/ClassTag/ManifestDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/ClassTag/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/context/ViewBound.scala" afterDir="false" />
+    <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="add ClassTag Test">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/Currying/CurryingTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/Extractor/ExtractorTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/Extractor/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/Implicit/ImplicitParameter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/Implicit/IntTODoubleTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/Covariation/Covariation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/Covariation/Covariation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/Covariation/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/Covariation/Test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/context/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/context/TypeBoundTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/Implicit/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/Implicit/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/Implicit/Stringutils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/Implicit/Stringutils.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,30 +23,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/ClassTag/ManifestDemo.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Extractor/ExtractorTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="187">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/ClassTag/ClassTagTest.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Extractor/Test.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/ClassTag/Test.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="306">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -93,14 +83,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/java8/Pattern/PatternTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lombok/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/java8/Import/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/implicit/swimming.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/implicit/AnimalType.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Implicit/Stringutils.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Implicit/Main.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/scala/Implicit/Main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Hello.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/core/helloworld/SparkPi.scala" />
         <option value="$PROJECT_DIR$/src/main/java/Thread/Callable/CallableTest.java" />
@@ -142,8 +125,15 @@
         <option value="$PROJECT_DIR$/src/main/scala/scala/context/TypeBoundTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scala/ClassTag/ArrayDemo.java" />
         <option value="$PROJECT_DIR$/src/main/scala/scala/ClassTag/Test.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/scala/ClassTag/ManifestDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scala/ClassTag/ClassTagTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/ClassTag/ManifestDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/Implicit/Main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/Implicit/Stringutils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/Implicit/IntTODoubleTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/Implicit/ImplicitParameter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/Currying/CurryingTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/Extractor/ExtractorTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala/Extractor/Test.scala" />
       </list>
     </option>
   </component>
@@ -171,8 +161,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="214" />
-    <option name="y" value="97" />
+    <option name="x" value="228" />
+    <option name="y" value="111" />
     <option name="width" value="1440" />
     <option name="height" value="729" />
   </component>
@@ -197,7 +187,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,19 +227,20 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="ClassTag" type="462c0819:PsiDirectoryNode" />
+              <item name="Extractor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xzh/Documents/IdeaProject/test/src/main/java/httpClient/Test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547781674456" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547791875279" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -569,7 +559,9 @@
       <workItem from="1547725891296" duration="2083000" />
       <workItem from="1547734753410" duration="756000" />
       <workItem from="1547776899717" duration="3012000" />
-      <workItem from="1547780373697" duration="1299000" />
+      <workItem from="1547780373697" duration="1577000" />
+      <workItem from="1547782951041" duration="1510000" />
+      <workItem from="1547791733328" duration="269000" />
     </task>
     <task id="LOCAL-00001" summary="workspace.xml">
       <created>1534229896092</created>
@@ -683,12 +675,12 @@
       <option name="project" value="LOCAL" />
       <updated>1547779114655</updated>
     </task>
-    <task id="LOCAL-00017" summary="clear">
-      <created>1534228272118</created>
+    <task id="LOCAL-00017" summary="add ClassTag Test">
+      <created>1547781722645</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1534228272118</updated>
+      <updated>1547781722645</updated>
     </task>
     <task id="LOCAL-00018" summary="First commit">
       <created>1534228330443</created>
@@ -746,7 +738,7 @@
       <option name="project" value="LOCAL" />
       <updated>1534229064010</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -782,7 +774,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158005000" />
+    <option name="totallyTimeSpent" value="160062000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -794,10 +786,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="214" y="97" width="1440" height="729" extended-state="0" />
-    <editor active="true" />
+    <frame x="228" y="111" width="1440" height="729" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16738197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -811,7 +802,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49941587" weight="0.4293629" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" visible="true" weight="0.21193093" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" visible="true" weight="0.46624804" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028818" side_tool="true" weight="0.5845481" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49784172" weight="0.35734072" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928057" weight="0.4422254" />
@@ -869,7 +860,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="先merge后master" />
     <MESSAGE value="master test5" />
     <MESSAGE value="master test5   测试" />
     <MESSAGE value="clear" />
@@ -894,7 +884,8 @@
     <MESSAGE value="add scala context bound" />
     <MESSAGE value="modify PartialFunction" />
     <MESSAGE value="modify PartialFunction and add Covariation" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify PartialFunction and add Covariation" />
+    <MESSAGE value="add ClassTag Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ClassTag Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -939,76 +930,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/hbase/HbaseConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Thread/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Callable/CallableTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Lock/LockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Lock/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thread/Callable/CallableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependency.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-451">
-          <caret line="1262" column="24" selection-start-line="1262" selection-start-column="24" selection-end-line="1262" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/core/helloworld/HelloWorld.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <element signature="e#25#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sql/SparkSessionTest.scala" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.3.0/spark-catalyst_2.11-2.3.0.jar!/org/apache/spark/sql/Row.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1255,8 +1176,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/scala/ClassTag/ManifestDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="144">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/ClassTag/ClassTagTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1267,10 +1195,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/ClassTag/ClassTagTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Implicit/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="72">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Implicit/package.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Implicit/Stringutils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Implicit/IntTODoubleTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Implicit/ImplicitParameter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Currying/CurryingTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Extractor/package.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Extractor/ExtractorTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Extractor/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
