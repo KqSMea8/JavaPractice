@@ -7,9 +7,9 @@ class Bird extends Animal {}
 
 
 
-object Covariation {
+object Covariation  extends  App {
 
-  def main(args: Array[String]): Unit = {
+  override def main(args: Array[String]): Unit = {
 
     //协变
     class Covariant[T](t:T){}
@@ -34,6 +34,7 @@ object Covariation {
 
 
   def test2() : Unit = {
+
     class Contravariant[-T](t: T) {
 
     }

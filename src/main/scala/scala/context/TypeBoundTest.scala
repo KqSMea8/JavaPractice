@@ -1,6 +1,6 @@
 package scala.context
 
-object Test {
+object TypeBoundTest {
 
   //类型变量界定(Type Variable Bound)
 
@@ -33,6 +33,7 @@ object Test {
     else b
   }
   val v2 = typeVariable(100, 200)
+
   println(v2) // 200
 
 
