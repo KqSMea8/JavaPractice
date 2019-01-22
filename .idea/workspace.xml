@@ -4,18 +4,7 @@
     <bookmark url="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.11.0/calcite-core-1.11.0.jar!/org/apache/calcite/tools/Planner.class" description="SqlNode parse(String var1) throws SqlParseExceptio..." line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="add java code for ftrl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8/Clone/Bar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8/Clone/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/kafka/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/predefined/PredefineTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLLocalTrain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLModelLoad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLParameters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLProximal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ml/FTRL/LogLossEvalutor.java" beforeDir="false" />
-    </list>
+    <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="add java code for ftrl" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,6 +31,7 @@
           <entry key="class" value="2" />
           <entry key="java" value="14" />
           <entry key="scala" value="2" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -49,6 +39,7 @@
           <entry key="CLASS" value="2" />
           <entry key="JAVA" value="14" />
           <entry key="Scala" value="2" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -68,7 +59,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -253,8 +244,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -786,7 +777,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150585000" />
+    <option name="totallyTimeSpent" value="150623000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -798,9 +789,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="195" y="23" width="1440" height="793" extended-state="0" />
+    <frame x="232" y="68" width="1440" height="793" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1702432" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17238913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -814,7 +805,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49941587" weight="0.4293629" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" visible="true" weight="0.29386592" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" visible="true" weight="0.3837375" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028818" side_tool="true" weight="0.5845481" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49784172" weight="0.3566334" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928057" weight="0.4422254" />
@@ -872,7 +863,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test3" />
     <MESSAGE value="test1" />
     <MESSAGE value="先merge  后更新master" />
     <MESSAGE value="先merge后master" />
@@ -897,7 +887,8 @@
     <MESSAGE value="fix netty dependcy mix problem  and add spark hello world" />
     <MESSAGE value="update spark sql" />
     <MESSAGE value="add java code for ftrl" />
-    <option name="LAST_COMMIT_MESSAGE" value="add java code for ftrl" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/xy2953396112/JavaPractice&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/xy2953396112/JavaPractice&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -942,13 +933,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/math/package.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/core/helloworld/SparkPi.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -1188,9 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1207,6 +1188,9 @@
           <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
