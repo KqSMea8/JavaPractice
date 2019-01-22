@@ -4,15 +4,17 @@
     <bookmark url="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.11.0/calcite-core-1.11.0.jar!/org/apache/calcite/tools/Planner.class" description="SqlNode parse(String var1) throws SqlParseExceptio..." line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="update spark sql">
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLLocalTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLModelLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLProximal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ml/FTRL/LogLossEvalutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="add java code for ftrl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/Clone/Bar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/Clone/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/kafka/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/predefined/PredefineTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLLocalTrain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLModelLoad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLProximal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ml/FTRL/LogLossEvalutor.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,138 +28,55 @@
     <session id="-330106286">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="class" value="2" />
+          <entry key="java" value="14" />
+          <entry key="scala" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="14" />
+          <entry key="Scala" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="24" />
+          <entry key="java" value="121" />
+          <entry key="scala" value="30" />
+          <entry key="txt" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="121" />
+          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="Scala" value="30" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P1/C11.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P2/C21.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLParameters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLLocalTrain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLProximal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="914">
-              <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLModelLoad.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/LogLossEvalutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/truck.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sql/datasets/Test.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-              <folding>
-                <element signature="e#22#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="Scala Object" />
         <option value="Package Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -188,10 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/ResearcherSelection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DesignPattern/Visitor/VisitorClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/java8/Lambda/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kafka/API/JProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kafka/API/JConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/scala/function/PartialFunction.scala" />
@@ -239,6 +154,10 @@
         <option value="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLParameters.java" />
         <option value="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLLocalTrain.java" />
         <option value="$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLProximal.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/kafka/Test.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/predefined/PredefineTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/Clone/Foo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/Clone/Bar.java" />
       </list>
     </option>
   </component>
@@ -272,8 +191,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="193" />
-    <option name="y" value="133" />
+    <option name="x" value="195" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="793" />
   </component>
@@ -320,15 +239,15 @@
               <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="FTRL" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -342,7 +261,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xzh/Documents/IdeaProject/test/src/main/java/httpClient/Test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547027844867" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548165826770" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -390,7 +309,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Foo">
+    <configuration name="Foo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.Clone.Foo" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.Clone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Hello" />
       <module name="JavaPractice" />
@@ -410,20 +342,6 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SQlTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sql.sql.SQlTest" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sql.sql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeNoErrorCheck" enabled="true" />
       </method>
     </configuration>
     <configuration name="TT" type="Application" factoryName="Application" temporary="true">
@@ -473,19 +391,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SQlTest" />
       <item itemvalue="Application.PromiseTest" />
       <item itemvalue="Application.TT" />
       <item itemvalue="Application.Hello" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Foo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Foo" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.TT" />
         <item itemvalue="Application.Hello" />
         <item itemvalue="Application.PromiseTest" />
-        <item itemvalue="Application.SQlTest" />
       </list>
     </recent_temporary>
   </component>
@@ -650,7 +568,12 @@
       <workItem from="1546396996964" duration="3000" />
       <workItem from="1546428919806" duration="3616000" />
       <workItem from="1546778260066" duration="1993000" />
-      <workItem from="1547026824734" duration="746000" />
+      <workItem from="1547026824734" duration="877000" />
+      <workItem from="1547178848779" duration="302000" />
+      <workItem from="1547705588164" duration="480000" />
+      <workItem from="1547707154991" duration="801000" />
+      <workItem from="1548079571406" duration="3000" />
+      <workItem from="1548162891734" duration="697000" />
     </task>
     <task id="LOCAL-00001" summary="workspace.xml">
       <created>1534229896092</created>
@@ -743,12 +666,12 @@
       <option name="project" value="LOCAL" />
       <updated>1546778356338</updated>
     </task>
-    <task id="LOCAL-00014" summary="先merge后master">
-      <created>1532506473010</created>
+    <task id="LOCAL-00014" summary="add java code for ftrl">
+      <created>1547027919584</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1532506473010</updated>
+      <updated>1547027919585</updated>
     </task>
     <task id="LOCAL-00015" summary="master test5">
       <created>1532506612960</created>
@@ -827,7 +750,7 @@
       <option name="project" value="LOCAL" />
       <updated>1534229064010</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -863,7 +786,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148171000" />
+    <option name="totallyTimeSpent" value="150585000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -875,9 +798,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="193" y="133" width="1440" height="793" extended-state="0" />
+    <frame x="195" y="23" width="1440" height="793" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1595136" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1702432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -891,12 +814,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49941587" weight="0.4293629" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" visible="true" weight="0.28815976" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" visible="true" weight="0.29386592" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028818" side_tool="true" weight="0.5845481" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49784172" weight="0.35734072" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49784172" weight="0.3566334" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928057" weight="0.4422254" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.36804566" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -949,7 +872,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test3" />
     <MESSAGE value="test3" />
     <MESSAGE value="test1" />
     <MESSAGE value="先merge  后更新master" />
@@ -974,7 +896,8 @@
     <MESSAGE value="update dict and jar for spark" />
     <MESSAGE value="fix netty dependcy mix problem  and add spark hello world" />
     <MESSAGE value="update spark sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="update spark sql" />
+    <MESSAGE value="add java code for ftrl" />
+    <option name="LAST_COMMIT_MESSAGE" value="add java code for ftrl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1019,38 +942,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/implicit/AnimalType.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/implicit/package.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lombok/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java8/Import/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Implicit/Stringutils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Math.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/Implicit/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.0/spark-sql_2.11-2.3.0.pom" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/math/package.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1225,6 +1116,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P2/C21.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLLocalTrain.java" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/rule/apply/truck.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1234,8 +1133,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1243,53 +1142,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <element signature="e#22#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala/scope/P2/C21.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/kafka/Test.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLModelLoad.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLParameters.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/predefined/PredefineTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLParameters.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../../scala-2.11.0/lib/scala-library.jar!/scala/Predef.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLLocalTrain.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="158">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLModelLoad.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLProximal.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/LogLossEvalutor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/Clone/Foo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/Interface/InterfaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/FTRLProximal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/Clone/Bar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="914">
-          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ml/FTRL/LogLossEvalutor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.0/spark-sql_2.11-2.3.0.jar!/org/apache/spark/sql/vectorized/ColumnarArray.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+        <state relative-caret-position="266">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
     </entry>
