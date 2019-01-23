@@ -6,7 +6,11 @@
 
     <groupId>com.xzh.test</groupId>
     <artifactId>test</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>springBoot</module>
+    </modules>
 
     <properties>
         <scala.version>2.11.8</scala.version>
@@ -340,7 +344,7 @@
         <dependency>
             <groupId>org.apache.calcite</groupId>
             <artifactId>calcite-core</artifactId>
-            <version>1.18.0-SNAPSHOT</version>
+            <version>1.18.0</version>
         </dependency>
 
         <dependency>
