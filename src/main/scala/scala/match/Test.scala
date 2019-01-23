@@ -21,6 +21,52 @@ object Test {
     }
   }
 
+  def test1():Unit = {
+
+    val d@(c@Some(a), Some(b)) = (Some(1), Some(2))
+    //(Some(1),Some(2))
+    //Some(1)
+    //1
+    //2
+    println(d)
+    println(c)
+    println(a)
+    println(b)
+
+    //(1,2,Some(1),(Some(1),Some(2)))
+    println()
+    (Some(1), Some(2)) match {
+      case d@(c@Some(a), Some(b)) => println(a, b, c, d)
+    }
+
+    println()
+    println()
+
+    //(Some(1),1)
+    for (x @ Some(y) <- Seq(None, Some(1))) println(x, y)
+
+    //1
+    //List(2, 3)
+    val List(x, xs@_*) = List(1, 2, 3)
+    println(x)
+    println(xs)
+    println()
+
+    val o: Option[Int] = Some(2)
+    o match {
+      case Some(x) => println(x)
+      case None =>
+    }
+    //2
+    //Some(2)
+    o match {
+      case x@Some(_) => println(x)
+      case None =>
+    }
+
+
+  }
+
 
 
 }
