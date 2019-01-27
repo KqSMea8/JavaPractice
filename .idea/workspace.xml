@@ -4,16 +4,8 @@
     <bookmark url="jar://$MAVEN_REPOSITORY$/org/apache/calcite/calcite-core/1.11.0/calcite-core-1.11.0.jar!/org/apache/calcite/tools/Planner.class" description="SqlNode parse(String var1) throws SqlParseExceptio..." line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="add test for @">
-      <change afterPath="$PROJECT_DIR$/springBoot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBoot/springBoot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBoot/src/main/java/drools/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBoot/src/main/java/drools/TestUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBoot/src/main/resources/META-INF/kmodule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBoot/src/main/resources/rules/age.drl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="b74c3da5-9aae-4583-ac99-d35ba66675e5" name="Default" comment="add module for spring boot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +20,7 @@
     <session id="-330106286">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -60,14 +52,14 @@
         <counts>
           <entry key="java" value="143" />
           <entry key="scala" value="105" />
-          <entry key="txt" value="71" />
+          <entry key="txt" value="93" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="143" />
-          <entry key="PLAIN_TEXT" value="71" />
+          <entry key="PLAIN_TEXT" value="93" />
           <entry key="Scala" value="105" />
           <entry key="XML" value="17" />
         </counts>
@@ -112,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springBoot/src/main/java/drools/TestUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -133,7 +125,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springBoot/src/main/java/drools/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -269,8 +261,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="232" />
-    <option name="y" value="167" />
+    <option name="x" value="165" />
+    <option name="y" value="162" />
     <option name="width" value="1440" />
     <option name="height" value="793" />
   </component>
@@ -356,7 +348,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xzh/Documents/IdeaProject/test/src/main/java/httpClient/Test.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548236465923" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548579826113" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -671,7 +663,7 @@
       <workItem from="1548162891734" duration="697000" />
       <workItem from="1548167032080" duration="435000" />
       <workItem from="1548209776336" duration="849000" />
-      <workItem from="1548235570515" duration="871000" />
+      <workItem from="1548235570515" duration="1041000" />
     </task>
     <task id="LOCAL-00001" summary="workspace.xml">
       <created>1534229896092</created>
@@ -792,12 +784,12 @@
       <option name="project" value="LOCAL" />
       <updated>1548210190014</updated>
     </task>
-    <task id="LOCAL-00018" summary="First commit">
-      <created>1534228330443</created>
+    <task id="LOCAL-00018" summary="add module for spring boot">
+      <created>1548236509598</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1534228330443</updated>
+      <updated>1548236509598</updated>
     </task>
     <task id="LOCAL-00019" summary="Second commit">
       <created>1534228396849</created>
@@ -848,7 +840,7 @@
       <option name="project" value="LOCAL" />
       <updated>1534229064010</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -884,7 +876,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152961000" />
+    <option name="totallyTimeSpent" value="153131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -896,9 +888,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="232" y="167" width="1440" height="793" extended-state="0" />
+    <frame x="218" y="96" width="1440" height="793" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1788269" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1788269" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -908,12 +900,12 @@
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32524964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928057" visible="true" weight="0.26105565" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928057" weight="0.26105565" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42473918" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49941587" weight="0.4293629" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" weight="0.13409415" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" visible="true" weight="0.5406562" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028818" side_tool="true" weight="0.5845481" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49784172" weight="0.3566334" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928057" weight="0.4422254" />
@@ -971,7 +963,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master test5" />
     <MESSAGE value="master test5   测试" />
     <MESSAGE value="clear" />
     <MESSAGE value="First commit" />
@@ -996,7 +987,8 @@
     <MESSAGE value="scala" />
     <MESSAGE value="scala模式匹配@" />
     <MESSAGE value="add test for @" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test for @" />
+    <MESSAGE value="add module for spring boot" />
+    <option name="LAST_COMMIT_MESSAGE" value="add module for spring boot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1264,17 +1256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springBoot/src/main/java/drools/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springBoot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -1309,6 +1290,17 @@
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springBoot/src/main/java/drools/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
           </folding>
         </state>
       </provider>
