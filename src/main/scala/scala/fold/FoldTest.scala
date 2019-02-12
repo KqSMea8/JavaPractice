@@ -40,4 +40,22 @@ class FoldTest extends FunSuite{
     // stringList(2)
     // Ms. Incontinentia Buttocks, 37
   }
+
+
+  def test():Unit = {
+    //flodLeft的简写 /:
+    //5050
+    (0/:(1 to 100))(_+_)
+    //5050
+    (1 to 100).foldLeft(0)(_+_)
+
+    //foldRight的简写 :\
+    //85
+    ((1 to 5):\100)((i,sum)=> sum-i)
+
+
+
+
+
+  }
 }
