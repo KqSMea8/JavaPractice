@@ -43,6 +43,7 @@ import java.util.Properties;
 public class SqlVolcanoTest {
     private static final Logger LOGGER = LoggerFactory.getLogger(SqlVolcanoTest.class);
 
+
     public static void main(String[] args) {
         SchemaPlus rootSchema = CalciteUtils.registerRootSchema();
 

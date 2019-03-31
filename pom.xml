@@ -13,6 +13,10 @@
         <module>calcite</module>
         <module>spark</module>
         <module>hbase</module>
+        <module>flink</module>
+        <module>java</module>
+        <module>scala</module>
+        <module>kudu</module>
     </modules>
 
     <properties>
